@@ -35,14 +35,10 @@ Scripts responsáveis pela construção dos subgrafos:
 - **Subgrafo A:** representa encadeamentos temporais de crimes.
 - **Subgrafo B:** modela transições entre turnos do dia nas subáreas.
 
-### 📁 `grafo_integrado/`
-Construção do **grafo unificado**, que incorpora informações de coocorrência e frequência para aplicação de Dijkstra e identificação de **rotas críticas de patrulhamento**.
-
 ### 📁 `resultados/`
 Contém os **arquivos de saída**, como:
 - Visualizações dos grafos;
 - Mapas interativos com a biblioteca `folium`;
-- Relatórios de comunidades e trajetos otimizados.
 
 ## 🧪 Tecnologias e Ferramentas Utilizadas
 
